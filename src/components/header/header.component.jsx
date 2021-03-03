@@ -17,16 +17,19 @@ const Header = () => {
             <Logo className='logo'/>
         </LogoContainer>
         <LinksContainer>
+            <LinkContainer to='/services'>
+                SERVICES
+            </LinkContainer>
             <LinkContainer to='/shop'>
                 SHOP
             </LinkContainer>
-            <LinkContainer to='/contact'>
+            <LinkContainer to='/blog'>
                 BLOG
             </LinkContainer>
             <LinkContainer to='/contact'>
                 CONTACT
             </LinkContainer>
-            <LinkContainer to='/contact'>
+            <LinkContainer to='/about'>
                 ABOUT
             </LinkContainer>
             {/* {
